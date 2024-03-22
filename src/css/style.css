@@ -1,0 +1,21 @@
+:root{
+    --azul-header:#000026;
+    --white:#ffffff;
+    --azul-section:#070635;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1962;
+}
+.header{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    color: var(--white);
+    background-color: var(--azul-header);
+}
