@@ -1,21 +1,82 @@
+/* https://paletadecolores.com.mx/paleta/1a1962/141353/0d0d44/070635/000026/ */
+/* https://tinypng.com/ */
+/* https://www.cinecolombia.com/medellin/peliculas/10-lives */
+/* https://www.cinecolombia.com/medellin/peliculas/cabrini */
+/* https://www.cinecolombia.com/medellin/peliculas/vermines */
+/* https://www.cinecolombia.com/medellin/peliculas/los-de-la-culpa */
+/* https://www.cinecolombia.com/medellin/peliculas/imaginary
+https://www.cinecolombia.com/medellin/peliculas/the-beast
+https://www.cinecolombia.com/medellin/peliculas/may-december
+https://www.cinecolombia.com/medellin/peliculas/flash-over */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 :root{
     --azul-header:#000026;
     --white:#ffffff;
     --azul-section:#070635;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Chilanka";
 }
 
 body{
     background-color: #1a1962;
 }
+
 .header{
     display: flex;
     align-items:center ;
     justify-content: space-between;
     color: var(--white);
     background-color: var(--azul-header);
+    padding: 4px 10px;
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+     */
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a{
+    color:var(--white);
+    text-decoration: none;
+}
+
+section.proximos{
+    border: 5px solid var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 60px;
+    
+    
+    
+}
+
+section.proximos h2{
+    /* height: 500px;
+    width: 200px; */
+   color: var(--white);
+    
+}
+
+.proximosimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 34%;
+  
 }
