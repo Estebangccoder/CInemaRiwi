@@ -26,7 +26,7 @@ https://www.cinecolombia.com/medellin/peliculas/flash-over */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Chilanka";
+    font-family: "Poppins";
 }
 
 body {
@@ -45,12 +45,16 @@ body {
     padding-left: 10px;
     padding-right: 10px;
      */
+
+     height: 150px;
+     font-size: 40px;
 }
 
 nav {
     display: flex;
     align-items: center;
     gap: 30px;
+    
 }
 
 .nav a {
@@ -75,7 +79,7 @@ section.proximos h2 {
     width: 200px; */
     color: var(--white);
 
-
+    font-size:40px;
 
     width: 10%;
 
@@ -123,6 +127,17 @@ figcaption {
     display: flex;
     justify-content: center;
 
+}
+
+.botoncompra{
+    width: 150px;
+    background-color:var(--azul-botones) ;
+    font-size: 30px;
+    color: var(--white);
+    border: 2px solid var(--azul-botones);
+    border-radius: 40px;
+    border-style:outset;
+    
 }
 
 .contactos {
@@ -183,10 +198,32 @@ border-style:outset;
 
 }
 
+
+
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: var(--white);
     background-color: var(--azul-header);
     padding: 4px 10px;
+    height: 500px;
+
+}
+
+.socialmedia{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 50px;
+
+
+
+}
+
+.socialmedia a{
+    color: var(--white);
+    display: flex;
+   
+}
