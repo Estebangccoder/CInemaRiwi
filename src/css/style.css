@@ -12,6 +12,7 @@ https://www.cinecolombia.com/medellin/peliculas/flash-over */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root{
@@ -55,14 +56,15 @@ nav{
     text-decoration: none;
 }
 
-section.proximos{
+.proximos{
     border: 5px solid var(--white);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 15px 60px;
-    
+    justify-content:center;
+    align-items: space-between;
+
+   
+    padding: 15px 60px; */
+     
     
     
 }
@@ -71,12 +73,49 @@ section.proximos h2{
     /* height: 500px;
     width: 200px; */
    color: var(--white);
+   
+   
+   
+   width: 10%;
+   
+   
+     
+
     
 }
 
 .proximosimg{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    width: 34%;
+    width: 50%;
+}
+
+.encartelera{
+    display: flex;
+    justify-content: center;
+    gap:7px;
+    padding: 20px 150px;
+    flex-wrap: wrap;
   
+}
+
+figure{
+    width: 30%;
+}
+
+figcaption{
+    color: var(--white);
+    display: flex;
+    
+    
+    
+
+}
+.nombrepelicula{
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+
 }
